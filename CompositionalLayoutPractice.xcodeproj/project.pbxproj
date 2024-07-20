@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045935CD2C4BA01A004AE41F /* TravelTalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045935CC2C4BA01A004AE41F /* TravelTalkViewController.swift */; };
+		045935D12C4BE71A004AE41F /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045935D02C4BE71A004AE41F /* Chat.swift */; };
 		047EB4E32C4960E600612562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047EB4E22C4960E600612562 /* AppDelegate.swift */; };
 		047EB4E52C4960E600612562 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047EB4E42C4960E600612562 /* SceneDelegate.swift */; };
 		047EB4E72C4960E600612562 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047EB4E62C4960E600612562 /* SettingViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		045935CC2C4BA01A004AE41F /* TravelTalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTalkViewController.swift; sourceTree = "<group>"; };
+		045935D02C4BE71A004AE41F /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		047EB4DF2C4960E600612562 /* CompositionalLayoutPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompositionalLayoutPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047EB4E22C4960E600612562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		047EB4E42C4960E600612562 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				047EB4E22C4960E600612562 /* AppDelegate.swift */,
 				047EB4E42C4960E600612562 /* SceneDelegate.swift */,
 				047EB4E62C4960E600612562 /* SettingViewController.swift */,
+				045935CC2C4BA01A004AE41F /* TravelTalkViewController.swift */,
+				045935D02C4BE71A004AE41F /* Chat.swift */,
 				047EB4EB2C4960E900612562 /* Assets.xcassets */,
 				047EB4ED2C4960E900612562 /* LaunchScreen.storyboard */,
 				047EB4F02C4960E900612562 /* Info.plist */,
@@ -143,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				047EB4E72C4960E600612562 /* SettingViewController.swift in Sources */,
+				045935D12C4BE71A004AE41F /* Chat.swift in Sources */,
 				047EB4E32C4960E600612562 /* AppDelegate.swift in Sources */,
+				045935CD2C4BA01A004AE41F /* TravelTalkViewController.swift in Sources */,
 				047EB4E52C4960E600612562 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

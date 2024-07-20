@@ -30,7 +30,7 @@ struct Detail: Hashable, Identifiable {
     var name: String
 }
 
-class SettingViewController: UIViewController {
+final class SettingViewController: UIViewController {
     
     private lazy var collectionView: UICollectionView = {
         let cv = UICollectionView(frame: .zero, collectionViewLayout: setLayout())
@@ -102,8 +102,9 @@ class SettingViewController: UIViewController {
         })
     }
     
-    func updateSnapshot() {
+    private func updateSnapshot() {
         var snapshot = NSDiffableDataSourceSnapshot<Setting, Detail>()
+        
         snapshot.appendSections(Setting.allCases)
         snapshot.appendItems(Setting.all.details, toSection: Setting.all)
         snapshot.appendItems(Setting.personal.details, toSection: Setting.personal)
